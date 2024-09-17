@@ -1,0 +1,33 @@
+- Configure the Git
+git config --global user.name "username"
+git config user.name
+
+git config --global user.email "email"
+git config user.email
+
+- Initialize a Repository
+git init
+
+- Check the status of all of the files and folder
+git status
+
+- Git Three Stage Architecture
+
+1. Working Area
+2. Staging Area
+- Add the files in the staging area
+git add .
+3. Create a commit
+git commit -m "This is the description."
+
+
+- Branching
+- List all of the branches
+git branch -a
+
+- Create a branch
+git branch [branch-name]
+
+- Switch to a different branch
+git checkout [branch-name]
+git switch [branch-name]
